@@ -40,3 +40,4 @@ mvnw
 mvnw.cmd
 .gitattributes
 .mvn
+mylog.log
