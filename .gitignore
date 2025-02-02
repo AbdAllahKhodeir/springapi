@@ -34,3 +34,9 @@ build/
 
 ## applicatoin properties ##
 src/main/resources/application.properties
+
+## mvn ##
+mvnw
+mvnw.cmd
+.gitattributes
+.mvn
