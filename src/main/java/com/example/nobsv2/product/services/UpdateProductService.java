@@ -15,7 +15,7 @@ import java.util.Optional;
 @Service
 public class UpdateProductService implements Command<UpdateProductCommand, ProductDTO> {
 
-    private ProductRepository productRepository;
+    private final ProductRepository productRepository;
 
     public UpdateProductService(ProductRepository productRepository) {
         this.productRepository = productRepository;
