@@ -32,6 +32,9 @@ build/
 ### VS Code ###
 .vscode/
 
+## applicatoin properties ##
+src/main/resources/application.properties
+
 ## mvn ##
 mvnw
 mvnw.cmd

@@ -31,6 +31,6 @@ public class CacheConfiguration {
     @CacheEvict(value = "productCache", allEntries = true)
     @Scheduled(fixedDelay = 7000, initialDelay = 0)
     public void evictProductCache() {
-        logger.info("Evicting Product Cache");
+        // logger.info("Evicting Product Cache");
     }
 }
