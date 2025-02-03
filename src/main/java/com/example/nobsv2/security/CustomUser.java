@@ -4,11 +4,15 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "custom_user")
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class CustomUser {
 
     @Id
@@ -17,14 +21,4 @@ public class CustomUser {
 
     @Column(name = "password")
     private String password;
-
-
-    public CustomUser(String username, String password) {
-        this.username = username;
-        this.password = password;
-    }
-
-    public CustomUser() {
-
-    }
 }
